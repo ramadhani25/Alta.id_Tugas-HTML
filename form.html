@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - Task HTML</title>
+</head>
+<body>
+    <h1>
+        Buat Account Baru!
+    </h1>
+    <h2>
+        Sign Up Form
+    </h2>
+    <form action="welcome.html">
+        <div>
+            <label for="fname">First name:</label><br>
+            <input type="text"><br><br>
+        </div>
+        <div>
+            <label for="lname">Last name:</label><br>
+            <input type="text"><br><br>
+        </div>
+        <div>
+            <label for="gender">Gender:</label><br>
+            <div>
+                <input type="radio" name="Male" id="male" value="Male">
+                <label for="male">Male</label>
+            </div>
+            <div>
+                <input type="radio" name="Female" id="female">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <input type="radio" name="Other" id="other">
+                <label for="other">Other</label>
+            </div>
+        </div><br>
+        <div>
+            <label for="nasionality">Nasionality:</label><br>
+            <select name="nasionality" id="nasionality">
+                <option value="indonesia">Indonesia</option>
+                <option value="belanda">Belanda</option>
+                <option value="rusia">Rusia</option>
+                <option value="amerika">Amerika</option>
+                <option value="jepang">Jepang</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="language">Language Spoken:</label><br>
+            <input type="checkbox" name="indonesia" id="id">
+            <label for="id">Bahasa Indonesia</label><br>
+            <input type="checkbox" name="english" id="eng">
+            <label for="eng">English</label><br>
+            <input type="checkbox" name="other" id="oth">
+            <label for="oth">Other</label><br>
+        </div><br>
+        <div>
+            <label for="bio">Bio:</label><br>
+            <textarea name="bio" id="" cols="40" rows="10"></textarea>
+        </div>
+
+        <button type="submit">Sign Up</button>
+    </form>
+</body>
+</html>
